@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+  --color-primary: #ffffff;
+  --color-secondary: #000000;
+  --color-soft-gray: #f4f4f4;
+  --color-snow-gray: #f6f6f6;
+  --color-light-gray: #cbced0;
+  --color-deep-slate: #1b1f25;
+  --color-bright-sun-yellow: #ffe849;
+  --color-golden-yellow: #ffcb05;
+  --color-sky-blue: #00aeef;
+  --color-ice-blue: #f4f9fc;
+  --color-deep-navyblue: #1b3281;
+
+  --text-cxl: 1.3rem;
+
+  --font-poppins: "Poppins";
+}
+
+/* 
+theme: {
+    extend: {
+      colors: {
+        primary: "#FFFFFF",
+        secondary: "#000000",
+        softGray: "#F4F4F4",
+        snowGray: "#F6F6F6",
+        lightGray: "#CBCED0",
+        deepSlate: "#1B1F25",
+        brightSunYellow: "#FFE849",
+        goldenYellow: "#FFCB05",
+        skyBlue: "#00AEEF",
+        iceBlue: "#F4F9FC",
+        deepNavyBlue: "#1B3281",
+      },
+      fontFamily: {
+        heading: ["Poppins", "sans-serif"],
+      },
+      fontSize: {},
+    },
+  }, */
