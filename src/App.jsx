@@ -1,4 +1,4 @@
-import { AboutUs, HeroSection, NaturalHealthy, NavBar, TopNav } from "./components"
+import { AboutUs, Discover, Footer, HeroSection, InstagramFeed, NaturalHealthy, NavBar, TopNav } from "./components"
 
 
 const App = () => {
@@ -9,6 +9,9 @@ const App = () => {
       <HeroSection />
       <AboutUs />
       <NaturalHealthy />
+      <InstagramFeed />
+      <Discover />
+      <Footer />
     </div>
   )
 }
