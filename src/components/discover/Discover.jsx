@@ -18,11 +18,11 @@ const Discover = () => {
       <div className="mt-[5vw] lg:mt-[2.5vw]  ">
         <Button
           name="Shop Now"
-          buttonStyle="capitalize tracking-[2px] border-1 rounded-[50px] text-[4vw] px-4 py-1.5 lg:text-[1.2vw] lg:px-[3.5vw] lg:py-[1vw] bg-secondary text-primary mr-[1vw] "
+          buttonStyle="capitalize tracking-[2px] border-1 rounded-[50px] text-[4vw] px-6 py-3 lg:text-[1.2vw] lg:px-[3.5vw] lg:py-[1vw] bg-secondary text-primary mr-[1vw] "
         />
         <Button
           name="Discover"
-          buttonStyle="capitalize tracking-[2px] border-1 rounded-[50px] text-[4vw] px-4 py-1.5 lg:text-[1.2vw] lg:px-[3.5vw] lg:py-[1vw] text-secondary mr-[1vw]"
+          buttonStyle="capitalize tracking-[2px] border-1 rounded-[50px] text-[4vw] px-6 py-3 lg:text-[1.2vw] lg:px-[3.5vw] lg:py-[1vw] text-secondary mr-[1vw]"
         />
       </div>
     </div>

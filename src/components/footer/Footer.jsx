@@ -2,33 +2,34 @@ const Footer = () => {
   return (
     <>
       <div
-        className="w-full h-[50vh] px-[13vw] overflow-x-hidden "
+        className="w-full lg:h-[50vh] px-[7vw] lg:px-[13vw] overflow-x-hidden "
         style={{
           backgroundImage: "url('./homePage/footer/footer back.jpg')",
           objectFit: "cover",
           objectPosition: "center",
         }}
       >
-        <div className="w-full h-full flex items-center justify-between pt-[4vw] ">
+        <div className="w-full h-full flex flex-col lg:flex-row lg:items-center lg:justify-between pt-[4vw] ">
           {/* logo section */}
-          <div className="w-[40%] h-full text-[#7F9CFF] ">
+          <div className="w-full lg:w-[40%] h-full text-[#7F9CFF] ">
             <img
               src="/homePage/header & footer logo/logo footer.png"
               alt=""
-              className="w-[13vw] mb-[3vw] "
+              className="lg:w-[13vw] lg:mb-[3vw] "
             />
-            <p className="text-[1vw] leading-[2.2rem] ">
+            <p className="lg:text-[1vw] lg:leading-[2.2rem] ">
               Lorem Ipsum is dummy text of the printing <br />
-              and typesetting industry. Lorem Ipsum has been the <br />
+              and typesetting industry. Lorem Ipsum has been the{" "}
+              <br className="hidden lg:inline-block" />
               industry&#39; s standard dummy text ever...
             </p>
           </div>
 
-          <div className="w-[60%] h-full flex justify-between text-[#E7E7E4] ">
+          <div className="w-[60%] h-full flex flex-col lg:flex-row lg:justify-between text-[#E7E7E4] ">
             {/* quick link */}
             <div className="Quick-link-section">
               <div>
-                <h2 className="text-[1.1vw] font-semibold mb-3 ">Quick Link</h2>
+                <h2 className="text-[6vw] lg:text-[1.1vw] font-semibold mb-3 mt-5 lg:mt-0 ">Quick Link</h2>
                 <img src="/homePage/footer/underline.png" alt="" />
               </div>
               {/* Quick link items */}
@@ -36,7 +37,9 @@ const Footer = () => {
                 <ul className="flex flex-col gap-y-6">
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
-                    <h5 className="text-lg font-light ">Today&#39; s Specials</h5>
+                    <h5 className="text-lg font-light ">
+                      Today&#39; s Specials
+                    </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
@@ -64,7 +67,7 @@ const Footer = () => {
             {/* our product  */}
             <div className="Our-product-section">
               <div>
-                <h2 className="text-[1.1vw] font-semibold mb-3 ">
+                <h2 className="text-[6vw] lg:text-[1.1vw] font-semibold mb-3 mt-5 lg:mt-0 ">
                   Our Product
                 </h2>
                 <img src="/homePage/footer/underline.png" alt="" />
@@ -108,7 +111,7 @@ const Footer = () => {
             {/* social link */}
             <div className="Social-link">
               <div>
-                <h2 className="text-[1.1vw] font-semibold mb-3">Social Link</h2>
+                <h2 className="text-[6vw] lg:text-[1.1vw] font-semibold mb-3 mt-5 lg:mt-0 ">Social Link</h2>
                 <img src="/homePage/footer/underline.png" alt="" />
               </div>
               <div>
