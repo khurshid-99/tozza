@@ -37,29 +37,29 @@ const Footer = () => {
                 <ul className="flex flex-col gap-y-6">
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
-                    <h5 className="text-lg font-light ">
+                    <h5 className="text-lg font-light text-nowrap ">
                       Today&#39; s Specials
                     </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Chicken</h5>
+                    <h5 className="text-lg font-light text-nowrap">Chicken</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Fish</h5>
+                    <h5 className="text-lg font-light text-nowrap">Fish</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Mutton</h5>
+                    <h5 className="text-lg font-light text-nowrap">Mutton</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Ready to Cook</h5>
+                    <h5 className="text-lg font-light text-nowrap">Ready to Cook</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
-                    <h5 className="text-lg font-light ">Fruits & Vegetables</h5>
+                    <h5 className="text-lg font-light text-nowrap ">Fruits & Vegetables</h5>
                   </li>
                 </ul>
               </div>
@@ -77,31 +77,31 @@ const Footer = () => {
                 <ul className="flex flex-col gap-y-6">
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
-                    <h5 className="text-lg font-light ">
+                    <h5 className="text-lg font-light text-nowrap">
                       Chicken Curry Cut Small
                     </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Lean Goat Cutty Cut</h5>
+                    <h5 className="text-lg font-light text-nowrap">Lean Goat Cutty Cut</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Chicken Drumstick</h5>
+                    <h5 className="text-lg font-light text-nowrap">Chicken Drumstick</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">
+                    <h5 className="text-lg font-light text-nowrap">
                       Fresh chopped vegetables
                     </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light ">Fresh-Fish-slices</h5>
+                    <h5 className="text-lg font-light text-nowrap">Fresh-Fish-slices</h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
-                    <h5 className="text-lg font-light ">
+                    <h5 className="text-lg font-light text-nowrap">
                       Assorted-Sppices-eggs
                     </h5>
                   </li>
