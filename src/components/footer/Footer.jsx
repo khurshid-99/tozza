@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <div
-        className="w-full h-[50vh] px-[13vw] "
+        className="w-full h-[50vh] px-[13vw] overflow-x-hidden "
         style={{
           backgroundImage: "url('./homePage/footer/footer back.jpg')",
           objectFit: "cover",

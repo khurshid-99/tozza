@@ -4,7 +4,7 @@ const InstagramFeedCard = ({ divStyle, imgStyle, img }) => {
       <img
         src={`${img}`}
         alt=""
-        className={` ${imgStyle} w-full h-full object-cover object-center ${imgStyle} `}
+        className={` ${imgStyle} w-full h-full object-cover object-center`}
       />
     </div>
   );

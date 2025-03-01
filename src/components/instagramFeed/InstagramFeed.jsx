@@ -10,11 +10,13 @@ const InstagramFeed = () => {
   ]);
 
   return (
-    <div className="w-full h-[70vh] px-[7vw] py-[4vw] font-poppins ">
+    <div className="w-full lg:h-[50vh] xl:h-[70vh] px-[7vw] py-[4vw] font-poppins ">
       <div className="w-full bg-primary flex flex-col items-center justify-center ">
         <img src="/homePage/Heading logo brandig icon/brand icon.png" alt="" />
-        <h1 className="text-[2vw] capitalize font-semibold ">Instagram Feed</h1>
-        <p className="text-[#898989] text-[1.2rem] mt-[1.8vw] ">
+        <h1 className="text-[5vw] lg:text-[2vw] capitalize font-semibold ">
+          Instagram Feed
+        </h1>
+        <p className="text-[#898989] text-[1.2rem] mt-[1.8vw] text-center hidden lg:inline-block ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nobis
           molestiae quibusdam natus doloremque laborum ut rerum ipsa.
         </p>
@@ -24,7 +26,7 @@ const InstagramFeed = () => {
           <InstagramFeedCard
             key={index}
             img={card.src}
-            divStyle="w-[17vw] h-[13vw] "
+            divStyle="w-[25vw] h-[17vw] lg:w-[17vw] lg:h-[13vw] "
           />
         ))}
       </div>

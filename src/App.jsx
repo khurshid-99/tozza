@@ -3,7 +3,7 @@ import { AboutUs, Discover, Footer, HeroSection, InstagramFeed, NaturalHealthy, 
 
 const App = () => {
   return (
-    <div className="w-full min-h-screen bg-primary font-poppins">
+    <div className="w-full min-h-screen bg-primary font-poppins relative ">
       <TopNav />
       <NavBar/>
       <HeroSection />

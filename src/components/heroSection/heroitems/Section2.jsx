@@ -7,8 +7,8 @@ const Section2 = () => {
       style={{ backgroundImage: "url('./homePage/About us/banner.jpg')" }}
     >
       <h1 className="text-[10vw] lg:text-[3vw] font-semibold ">About tazza</h1>
-      <p className="text-[1rem] lg:text-cxl my-4 lg:my-6 ">
-        Lorem, ipsum dolor sit amet consectetur <br /> adipisicing elit. Porro,
+      <p className="text-[1rem] lg:text-cxl my-1 lg:my-6 ">
+        Lorem, ipsum dolor sit amet consectetur <br className="hidden lg:inline-block " /> adipisicing elit. Porro,
         a!
       </p>
       <div>
