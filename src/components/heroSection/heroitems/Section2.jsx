@@ -3,7 +3,7 @@ import { Button } from "../../templates";
 const Section2 = () => {
   return (
     <div
-      className="w-full h-[30vh] lg:h-[50vh] relative bg-cover bg-[45%] lg:bg-center px-[7vw] flex flex-col justify-center font-poppins text-primary "
+      className="w-full h-[50vw] lg:h-[50vh] relative bg-cover bg-[45%] lg:bg-center px-[7vw] flex flex-col justify-center font-poppins text-primary "
       style={{ backgroundImage: "url('./homePage/About us/banner.jpg')" }}
     >
       <h1 className="text-[10vw] lg:text-[3vw] font-semibold ">About tazza</h1>

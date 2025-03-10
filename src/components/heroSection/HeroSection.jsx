@@ -4,8 +4,8 @@ import Section3 from "./heroitems/Section3";
 
 const HeroSection = () => {
   return (
-    <div className="font-poppins w-full h-[35vh] lg:h-[75vh] ">
-      <div className="w-full hidden lg:inline-block bg-[yellow] ">
+    <div className="font-poppins w-full h-[60vw] lg:h-[75vh] ">
+      <div className="w-full hidden lg:inline-block  ">
         <Section1 />
       </div>
       <Section2 />
