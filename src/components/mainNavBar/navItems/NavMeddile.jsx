@@ -8,7 +8,7 @@ const NavMeddile = () => {
           type="text"
           placeholder={`Search for any ${delicious} product`}
           id="search"
-          className="w-full outline-none relative placeholder:text-sm lg:placeholder:text-lg xl:placeholder:text-cxl  "
+          className="w-full outline-none relative placeholder:text-[11px] lg:placeholder:text-[15px] xl:placeholder:text-cxl  "
         />
         {/* mobile svg */}
         <svg

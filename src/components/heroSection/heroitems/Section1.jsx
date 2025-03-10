@@ -4,48 +4,48 @@ import { Button } from "../../templates";
 const Section1 = () => {
   const [Products, setProducts] = useState([
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/today deals .png",
       name: "Today's Deals",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/Chicken.png",
       name: "Chicken",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/Fish.png",
       name: "Fish",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/Mutton.png",
       name: "Mutton",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/eggs.png",
       name: "Eggs",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/Fruits.png",
       name: "Furits",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/vegetables.png",
       name: "Vegetables",
     },
     {
-      src: "/homePage/Heading logo brandig icon/brand icon.png",
+      src: "homePage/product/Special product.png",
       name: "Special Product",
     },
   ]);
 
   return (
-    <div className="w-full bg-soft-gray px-[7vw] pt-[4vh] pb-[2vh] xl:h-[16vh] ">
+    <div className="w-full bg-soft-gray px-[7vw] pt-[4vh] pb-[2vh] xl:h-[17vh] ">
       <ul className="w-full flex items-center justify-between ">
         {Products.map((product) => (
           <li
             key={product.name}
             className="flex flex-col items-center justify-center "
           >
-            <img src={product.src} alt="" className="w-[4.5vw] xl:w-[3vw] " />
+            <img src={product.src} alt="" className="w-[4.5vw] xl:w-[4vw] mb-1 " />
             <h4 className="text-[1.6vw] xl:text-[1.1vw] ">
               {product.name}
             </h4>

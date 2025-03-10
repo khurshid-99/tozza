@@ -29,7 +29,9 @@ const Footer = () => {
             {/* quick link */}
             <div className="Quick-link-section">
               <div>
-                <h2 className="text-[6vw] lg:text-[1.1vw] font-semibold mb-3 mt-5 lg:mt-0 ">Quick Link</h2>
+                <h2 className="text-[6vw] lg:text-[1.1vw] font-medium mb-5 mt-5 lg:mt-0 ">
+                  Quick Link
+                </h2>
                 <img src="/homePage/footer/underline.png" alt="" />
               </div>
               {/* Quick link items */}
@@ -55,11 +57,15 @@ const Footer = () => {
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light text-nowrap">Ready to Cook</h5>
+                    <h5 className="text-lg font-light text-nowrap">
+                      Ready to Cook
+                    </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
-                    <h5 className="text-lg font-light text-nowrap ">Fruits & Vegetables</h5>
+                    <h5 className="text-lg font-light text-nowrap ">
+                      Fruits & Vegetables
+                    </h5>
                   </li>
                 </ul>
               </div>
@@ -67,7 +73,7 @@ const Footer = () => {
             {/* our product  */}
             <div className="Our-product-section">
               <div>
-                <h2 className="text-[6vw] lg:text-[1.1vw] font-semibold mb-3 mt-5 lg:mt-0 ">
+                <h2 className="text-[6vw] lg:text-[1.1vw] font-medium mb-5 mt-5 lg:mt-0 ">
                   Our Product
                 </h2>
                 <img src="/homePage/footer/underline.png" alt="" />
@@ -83,11 +89,15 @@ const Footer = () => {
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light text-nowrap">Lean Goat Cutty Cut</h5>
+                    <h5 className="text-lg font-light text-nowrap">
+                      Lean Goat Cutty Cut
+                    </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light text-nowrap">Chicken Drumstick</h5>
+                    <h5 className="text-lg font-light text-nowrap">
+                      Chicken Drumstick
+                    </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
@@ -97,7 +107,9 @@ const Footer = () => {
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />{" "}
-                    <h5 className="text-lg font-light text-nowrap">Fresh-Fish-slices</h5>
+                    <h5 className="text-lg font-light text-nowrap">
+                      Fresh-Fish-slices
+                    </h5>
                   </li>
                   <li className="flex items-center gap-x-2">
                     <img src="/homePage/footer/arrow.png" alt="" />
@@ -111,22 +123,55 @@ const Footer = () => {
             {/* social link */}
             <div className="Social-link">
               <div>
-                <h2 className="text-[6vw] lg:text-[1.1vw] font-semibold mb-3 mt-5 lg:mt-0 ">Social Link</h2>
+                <h2 className="text-[6vw] lg:text-[1.1vw] font-medium mb-5 mt-5 lg:mt-0 ">
+                  Social Link
+                </h2>
                 <img src="/homePage/footer/underline.png" alt="" />
               </div>
-              <div>
+              {/* social images */}
+              <div className="mt-7">
+                <div className="flex items-center gap-4">
+                  <img src="homePage/Social link/facebook.png" alt="" className="bg-primary rounded-full px-[16.5px] py-[13px] " />
+                  <img src="homePage/Social link/instagrame .png" alt="" className="bg-primary rounded-full px-2 py-2 " />
+                  <img src="homePage/Social link/Twweter.png" alt="" className="bg-primary rounded-full px-2 py-2 " />
+                  <img src="homePage/Social link/In.png" alt="" className="bg-primary rounded-full px-2 py-2 " />
+                </div>
+
+                {/* support */}
                 <div>
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                  <img src="" alt="" />
-                  <img src="" alt="" />
+                  <h2 className="text-[6vw] lg:text-[1.1vw] font-medium mb-5 mt-5 ">
+                    Support
+                  </h2>
+                  <img src="/homePage/footer/underline.png" alt="" />
+                  <div className="mt-10">
+                    <ul className="flex flex-col gap-y-6">
+                      <li className="flex items-center gap-x-2">
+                        <img src="/homePage/footer/arrow.png" alt="" />
+                        <h5 className="text-lg font-light text-nowrap">
+                          Free Shipping
+                        </h5>
+                      </li>
+                      <li className="flex items-center gap-x-2">
+                        <img src="/homePage/footer/arrow.png" alt="" />{" "}
+                        <h5 className="text-lg font-light text-nowrap">
+                          Packaged fresh
+                        </h5>
+                      </li>
+                      <li className="flex items-center gap-x-2">
+                        <img src="/homePage/footer/arrow.png" alt="" />{" "}
+                        <h5 className="text-lg font-light text-nowrap">
+                          Give Us a Call
+                        </h5>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-center gap-x-2 py-4 bg-deep-navyblue text-[#7F9CFF] ">
+      <div className="w-full flex items-center justify-center gap-x-2 py-4 px-[7vw] bg-deep-navyblue text-[#7F9CFF] ">
         <h5>Copyright&copy; 2021</h5>
         <img src="/homePage/footer/copyright div.png" alt="" />
         <h5>tazzartc.com All Right Reserved</h5>
